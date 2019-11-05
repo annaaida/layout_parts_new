@@ -20,17 +20,20 @@
   width: 90px;
 }
 
+.q6_table {
+  display: table;
+}
+
 .q6_centering {
-  height: 100%;
-  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .q6_centering1 {
   background-color: #fff;
   display: inline-block;
   padding: 10px;
-  vertical-align: middle;
-  text-align: center;
 }
 
 .q6_flex {
