@@ -20,7 +20,7 @@
   border: 1px solid #dedede;
 }
 
-.table tr:nth-child(even){
+.table tbody tr:nth-child(even){
   background-color: #ecf1f2;
 }
 
