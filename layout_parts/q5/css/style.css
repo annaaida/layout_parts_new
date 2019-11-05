@@ -1,5 +1,144 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
+.q5 {
+  background-color: #ECF1F2;
+  height: 500px;
+  margin: 0 auto;
+  padding: 40px;
+  position: relative;
+  width: 500px;
+}
 
-/* 回答はここに書いてね */
+.one {
+  background-color: #ffefd3;
+  font-size: 22px;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  top: 40px;
+  left: 240px;
+  text-align: center;
+  width: 100px;
+}
+
+.two {
+  background-color: #7084de;
+  font-size: 22px;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  top: 120px;
+  left: 320px;
+  text-align: center;
+  width: 100px;
+  z-index: 10;
+}
+
+.three {
+  background-color: #d0ecea;
+  font-size: 22px;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  text-align: center;
+  width: 100px;
+  z-index: 20;
+}
+
+.four {
+  background-color: #8b7a5e;
+  font-size: 22px;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  top: 280px;
+  left: 320px;
+  text-align: center;
+  width: 100px;
+  z-index: 30;
+}
+
+.five {
+  background-color: #9fd6d2;
+  font-size: 22px;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  top: 360px;
+  left: 240px;
+  text-align: center;
+  width: 100px;
+  z-index: 40;
+}
+
+.six {
+  background-color: #fffee4;
+  font-size: 22px;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  top: 280px;
+  left: 160px;
+  text-align: center;
+  width: 100px;
+  z-index: 50;
+}
+
+.seven {
+  background-color: #deae70;
+  font-size: 22px;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  top: 200px;
+  left: 80px;
+  text-align: center;
+  width: 100px;
+  z-index: 60;
+}
+
+.eight {
+  background-color: #de70cf;
+  font-size: 22px;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  top: 120px;
+  left: 160px;
+  text-align: center;
+  width: 100px;
+  z-index: 70;
+}
+
+.eight:after {
+  background-color: #ffefd3;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  content:"";
+}
+
+.nine {
+  background-color: #2b69a3;
+  font-size: 22px;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  text-align: center;
+  width: 100px;
+}

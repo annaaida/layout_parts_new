@@ -1,5 +1,28 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
+.table {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #dedede;
+}
 
-/* 回答はここに書いてね */
+.table th {
+  padding: 10px;
+  color: #FFFFFF;
+  background-color: #2244aa;
+  border: 1px solid #FFFFFF;
+}
+
+.table td {
+  text-align:center;
+  padding: 10px;
+  border: 1px solid #dedede;
+}
+
+.table tr:nth-child(even){
+  background-color: #ecf1f2;
+}
+
+.table tr:last-child {
+  border-top: 2px dashed #000;
+}
