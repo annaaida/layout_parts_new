@@ -1,5 +1,37 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
+.layout {
+  margin: 0 auto;
+}
 
-/* 回答はここに書いてね */
+.balloon {
+  border: 5px solid #222;
+  border-radius: 30px;
+  position: relative;
+  width: 500px;
+  padding: 20px;
+}
+
+.balloon::before,
+.balloon::after {
+  border-top: 50px solid;
+  border-right: 50px solid;
+  border-left: 50px solid;
+  position: absolute;
+  margin-left: -14px;
+}
+
+.balloon::before {
+  border-top-color: #222;
+  bottom: -28px;
+}
+
+.balloon::after {
+  border-top-color: #fff;
+  bottom: -27px;
+}
+
+.caption {
+  font-size: 16px;
+  line-height: 16px;
+}

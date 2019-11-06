@@ -6,21 +6,101 @@
   clear: both;
 }
 
+/* Q7-1 */
+
 .float-layout {
   font-size: 16px;
-  height: 300px;
 }
 
 .float-section {
+  box-sizing: border-box;
+  float: left;
+  margin-right: 50px;
   width: 225px;
-  float: right;
 }
 
-.table-section {
+.float-section:last-child {
+  margin-right: 0;
+}
+
+/* Q7-2 */
+
+.table-layout {
+  font-size: 16px;
+}
+
+.table-inners {
   display: table;
 }
 
-.table-section-text {
+.table-section {
   display: table-cell;
+  vertical-align: middle;
+  padding-right: 50px;
+  width: 225px;
+}
+
+.table-section:last-child {
+  padding-right: 0;
+}
+
+/* Q7-3 Inline-block */
+
+.inline-block-layout {
+  font-size: 16px;
+}
+
+.inline-block-box {
+  font-size: 0;
+}
+
+.inline-block-section {
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  margin-right: 50px;
+  width: 225px;
+}
+
+.inline-block-section:last-child {
+  margin-right: 0;
+}
+
+/* Q7-4 flex */
+
+.flex-layout {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-section {
+  box-sizing: border-box;
+  width: 225px;
+}
+
+/* Q7-5 inline-blockとmargin */
+
+.layout {
+  font-size: 0;
+  position: relative;
+}
+
+.inline-plus-margin {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.left-box {
+  margin-right: 50px;
+  width: 300px;
+}
+
+.right-box {
+  position: absolute;
+  top: 20px;
+  left: 350px;
+  margin-right: 20px;
+  overflow: hidden;
 }
 
