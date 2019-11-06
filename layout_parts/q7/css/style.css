@@ -81,8 +81,6 @@
 
 .layout {
   font-size: 0;
-  width:100%;
-  box-sizing: border-box;
 }
 
 .inline-plus-margin {
@@ -91,11 +89,11 @@
   vertical-align: top;
 }
 
-.left-box {
+.fixed-box {
   width: 300px;
 }
 
-.right-box {
+.flexible-box {
   box-sizing: border-box;
   margin-left: -300px;
   padding-left: 350px;

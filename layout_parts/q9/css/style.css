@@ -28,14 +28,19 @@
   font-size: 16px;
   line-height: 16px;
   margin: 0 auto;
-  padding: 200px 20px 20px 20px;
   position: absolute;
   bottom: -100%;
   left: 0;
   transition: all 0.5s ease;
   height: 100%;
-  word-break: break-all;
   width: 100%;
+}
+
+.caption_details {
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  word-break: break-all;
 }
 
 .img_wrap:hover .captions {
