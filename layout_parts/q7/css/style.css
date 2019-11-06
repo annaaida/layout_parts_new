@@ -46,10 +46,6 @@
 
 /* Q7-3 Inline-block */
 
-.inline-block-layout {
-  font-size: 16px;
-}
-
 .inline-block-box {
   font-size: 0;
 }
@@ -68,10 +64,12 @@
 }
 
 /* Q7-4 flex */
+/*ボトムに揃える*/
 
 .flex-layout {
   display: flex;
   justify-content: space-around;
+  align-items: flex-end;
 }
 
 .flex-section {
@@ -83,24 +81,24 @@
 
 .layout {
   font-size: 0;
-  position: relative;
+  width:100%;
+  box-sizing: border-box;
 }
 
 .inline-plus-margin {
   display: inline-block;
   font-size: 16px;
+  vertical-align: top;
 }
 
 .left-box {
-  margin-right: 50px;
   width: 300px;
 }
 
 .right-box {
-  position: absolute;
-  top: 20px;
-  left: 350px;
-  margin-right: 20px;
-  overflow: hidden;
+  box-sizing: border-box;
+  margin-left: -300px;
+  padding-left: 350px;
+  width: 100%;
 }
 

@@ -1,35 +1,30 @@
 @charset "UTF-8";
 
-.layout {
-  margin: 20px auto;
-  width: 500px;
-}
-
 .balloon {
   border: 5px solid #222;
   border-radius: 30px;
   position: relative;
   width: 500px;
   padding: 20px;
+  margin: 20px auto;
 }
 
 .balloon::before,
 .balloon::after {
   content: '';
-  border-top: 26px solid #222;
-  border-right: 26px solid transparent;
-  border-left: 26px solid transparent;
+  border: 20px solid transparent;
   position: absolute;
-  margin-left: 12px;
+  left: 30px;
 }
 
 .balloon::before {
-  bottom: -30px;
+  border-top-color: #222;
+  bottom: -45px;
 }
 
 .balloon::after {
   border-top-color: #fff;
-  bottom: -24px;
+  bottom: -38px;
 }
 
 .caption {
